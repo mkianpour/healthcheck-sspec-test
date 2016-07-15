@@ -1,0 +1,11 @@
+{
+  "apache": {
+    "listen": [
+      "*:80"
+    ]
+  },
+  "run_list": [
+    "recipe[serverspec-healthcheck::ruby2-install]",
+    "recipe[serverspec-healthcheck::serverspec-install]"
+  ]
+}
