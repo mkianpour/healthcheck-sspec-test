@@ -3,7 +3,7 @@ DEPENDENCIES
   git
   serverspec-healthcheck
     git: git@github.com:mkianpour/serverspec-healthcheck-cookbook.git
-    revision: 21a1d48a7d471252cab2a14c677fb79869fe707f
+    revision: 6c48502e0f86ad14474fab6261865486ad8e5500
 
 GRAPH
   apache2 (3.2.2)
