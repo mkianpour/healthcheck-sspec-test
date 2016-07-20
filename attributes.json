@@ -5,7 +5,9 @@
     ]
   },
   "run_list": [
+    "recipe[nginx]",
     "recipe[serverspec-healthcheck::ruby2_install]",
-    "recipe[serverspec-healthcheck::serverspec_install]"
+    "recipe[serverspec-healthcheck::serverspec_install]",
+    "recipe[serverspec-healthcheck::healthcheck]"
   ]
 }
